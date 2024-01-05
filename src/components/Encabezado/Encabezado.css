@@ -1,0 +1,44 @@
+.logoNavBar{
+    width: 50px;
+    height: 50px;
+}
+
+.encabezado{
+    margin-bottom: 0px;
+    z-index: 1000;
+}
+
+.navbarSala{
+    -webkit-box-shadow: 0px 20px 42px -14px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 20px 42px -14px rgba(0,0,0,0.31);
+    box-shadow: 0px 20px 42px -14px rgba(0,0,0,0.31);
+    background-color: rgba(218, 218, 218, 0.517);
+}
+
+.anchorNavBar{
+    flex: 0 1 10%;
+}
+.user-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+    .user-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: auto;
+    }
+    
+}
+
+.nameUser{
+    margin-right: 10px;
+}
+
+.container-fluid{
+    flex-wrap:nowrap !important;
+}

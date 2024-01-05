@@ -1,0 +1,209 @@
+.btnSprite{
+    background-image: url('../Images/SP.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    -o-background-size: 80%;
+    background-size: 80%;
+}
+
+.botonSabores{
+    width: 160px;
+    height: 50px;
+}
+
+.btnCoca{
+    background-image: url('../Images/CC.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    -o-background-size: 80%;
+    background-size: 80%;
+}
+
+.btnSchw{
+    background-image: url('../Images/Schw.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    -o-background-size: 80%;
+    background-size: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+.btnFanta{
+    background-image: url('../Images/FN.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 65%;
+    -moz-background-size: 65%;
+    -o-background-size: 65%;
+    background-size: 65%;
+    background-color: rgb(255, 166, 0);
+}
+
+.btnAq{
+    background-image: url('../Images/Aq.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 120%;
+    -moz-background-size: 120%;
+    -o-background-size: 120%;
+    background-size: 120%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.btnCrush{
+    background-image: url('../Images/Crush.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    -o-background-size: 80%;
+    background-size: 80%;
+    background-color: rgb(255, 166, 0);
+}
+
+.btnMonster{
+    background-image: url('../Images/Monster.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: 110%;
+    -moz-background-size: 110%;
+    -o-background-size: 110%;
+    background-size: 90%;
+}
+
+
+.sabores{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sabores input{
+    width: 40%;
+    height: 45px;
+}
+
+.saboresPrincipales{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.608);
+    width: 70%;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 20px 42px -14px rgba(0,0,0,0.71);
+    -moz-box-shadow: 10px 20px 42px -14px rgba(0,0,0,0.71);
+    box-shadow: 10px 20px 42px -14px rgba(0,0,0,0.71);
+}
+
+.sabores label{
+    margin:0px;
+    width: 60%;
+}
+
+.skuLista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.imagenDesplegable{
+    width: 80%;
+}
+.skuCocaCola{
+    background-color: rgba(152, 46, 46, 0.704);
+}
+
+.textSabores{
+    color: white;
+}
+
+.skuSprite{
+    background-color: rgba(46, 152, 58, 0.704);
+}
+.skuSchweppes{
+    background-color: rgba(152, 140, 46, 0.704);
+}
+.skuFanta{
+    background-color: rgba(161, 127, 3, 0.704);
+}
+.skuAquarius{
+    background-color: rgba(3, 161, 11, 0.704);
+}
+.skuMonster{
+    background-color: rgba(60, 60, 60, 0.704);
+}
+.skuCrush{
+    background-color: rgba(255, 255, 255, 0.704);
+}
+
+
+.bodyPlanificacion{
+    background-image: url('../Images/BotellaGenerica.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.planificacion{
+    background: linear-gradient(90deg, rgba(120, 17, 17, 0.3) 0%, rgba(93, 93, 93, 0.70) 80%);
+    height: 100%;
+    flex: 1 0 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo h1{
+    font-family: 'Bungee', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 253, 253);
+    font-weight: 900;
+}
+
+.titulo h4{
+    color: rgb(255, 253, 253);
+
+}
+
+.datos{
+    flex:1 0 50%;
+    background: linear-gradient(90deg, rgba(120, 17, 17, 0.3) 0%, rgba(93, 93, 93, 0.70) 80%);
+    display: flex;
+    justify-content: center;
+}
+
+.flavorButton{
+    width: 800px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.TablaDatos{
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.TablaDatos table{
+  border-radius: 10px;
+}
