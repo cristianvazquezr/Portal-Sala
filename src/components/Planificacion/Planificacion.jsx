@@ -281,7 +281,7 @@ function Planificacion(){
                             </div>
                             <div class="offcanvas-body">
                                 <p className='textSabores'>Introduzca la cantidad total programada por planeamiento <hr /></p>
-                                <form className='skuLista saboresMonster'>
+                                <form className='skuLista saboresCrush'>
                                     <div className='sabores'>
                                         <label for="crushNaranja" class="form-label btn btn-dark">CRUSH NARANJA</label>
                                         <input type="number" class="form-control" id="crushNaranja" aria-describedby="number"/>
@@ -325,7 +325,7 @@ function Planificacion(){
                             <th scope="row">1</th>
                             <td>01/03/2024</td>
                             <td>COCA COLA</td>
-                            <td>447</td>
+                            <td>894</td>
                             <td>Guille</td>
                             <td><IconEdit></IconEdit></td>
                             <td><IconDelete></IconDelete></td>

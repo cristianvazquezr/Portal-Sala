@@ -42,3 +42,7 @@
 .container-fluid{
     flex-wrap:nowrap !important;
 }
+
+.dropdown-menu{
+    z-index: 100000;
+}

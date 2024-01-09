@@ -11,11 +11,11 @@ function Encabezado(){
                     <div className='user-menu'>
                         <div class="dropdown">
                             <span className="btn btn-danger nameUser">Cristian Vazquez</span>
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                 
                                 <IconUser></IconUser>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -28,7 +28,7 @@ function Encabezado(){
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="./">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="./PedidoProduccion">Planificación</a>
@@ -36,8 +36,12 @@ function Encabezado(){
                                 <li class="nav-item">
                                     <a class="nav-link" href="./Produccion">Producción</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" role="button" id="dropdownMenuCamarista" data-bs-toggle="dropdown" aria-expanded="false">Camarista</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuCamarista">
+                                        <li><a class="dropdown-item" href="./Ingresos">Ingresos</a></li>
+                                        <li><a class="dropdown-item" href="./Cargas">Cargas</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
